@@ -1,10 +1,10 @@
 {
   "name": "jsweet-candy-js-quickstart",
-  "homepage": "https://github.com/kito99/jsweet-candy-js-quickstart",
+  "homepage": "https://github.com/cincheo/jsweet-candy-js-quickstart",
   "authors": [
     "renaudpawlak"
   ],
-  "description": "Starter project for creating a jsweet candy.",
+  "description": "Starter project for creating a JSweet candy.",
   "main": "",
   "keywords": [
     "java",
