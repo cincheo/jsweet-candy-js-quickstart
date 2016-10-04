@@ -8,6 +8,8 @@ This project defines a template and can be used as a starting point to create yo
 
 For the sake of example, we will use a very simple library: [sprintf-js](https://www.npmjs.com/package/sprintf-js).
 
+For more information on how this Maven project works, check the [jsweet-candy-quickstart](https://github.com/cincheo/jsweet-candy-quickstart), which implements a very similar structure.
+
 ## How to build
 
 Install the ``sprintf`` JavaScript library (to be included in the candy).
@@ -28,4 +30,16 @@ This command performs the following Maven phases:
 - ``generate-sources``: create the ``.d.ts`` TypeScript definitions bundle and puts it as a resource in ``src/typings``
 - ``package``: create the jar with the compiled Java APIs, and all the resources (including the TypeScript definitions, the ``sprintf`` JavaScript library, and the ``candy-metadata.json`` file filtered to set the targeted transpiler version)
 - ``install``: install the Maven artifact in your local Maven repository
+
+## How to adapt/modify
+
+You can adapt this template to your own needs in order to bridge any JavaScript library you want.
+
+For details on how to define an API (definitions) with JSweet, please refer to the <a href="https://github.com/cincheo/jsweet/blob/master/doc/jsweet-language-specifications.md#definitions">Language Specifications</a>.
+
+If you want, consider contributing to the [JSweet](https://github.com/jsweet-candies) Candies Open Source organization on Github.
+
+## License
+
+Apache 2 Open Source license.
 
