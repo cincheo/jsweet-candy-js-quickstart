@@ -35,7 +35,7 @@ This command performs the following Maven phases:
 
 You can adapt this template to your own needs in order to bridge any JavaScript library you want.
 
-For details on how to define an API (definitions) with JSweet, please refer to the <a href="https://github.com/cincheo/jsweet/blob/master/doc/jsweet-language-specifications.md#definitions">Language Specifications</a>.
+For details on how to define an API (definitions) with JSweet, please refer to the <a href="https://github.com/cincheo/jsweet/blob/master/doc/jsweet-language-specifications.md#definitions">Language Specifications</a>. Note that if you have the TypeScript definition file of your library, you can use the help of the online [API translator tool](http://www.jsweet.org/online-typescript-to-java-api-translator/) to translate it to Java.
 
 If you want, consider contributing to the [JSweet](https://github.com/jsweet-candies) Candies Open Source organization on Github.
 
