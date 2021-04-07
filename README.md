@@ -1,3 +1,8 @@
+# OBSOLETE
+
+Please do not use this repository anymore unless you know what you are doing. Please refer to this more up to date example: https://github.com/lgrignon/jsweet-candy-example
+and the documentation of course: https://github.com/cincheo/jsweet/blob/master/doc/jsweet-language-specifications.md#packaging-a-jsweet-jar-candy
+
 ## Description
 
 To be usable by JSweet programs, JavaScript libraries need to be accessible from Java. To make them available, we need to package the Java APIs in Maven artifacts (so-called candies).
